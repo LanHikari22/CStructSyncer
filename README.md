@@ -13,10 +13,10 @@ They can also generate docs that can then be sync'd with their associated struct
 
 # StructPadder Module
 This essentially takes in incomplete structs, and makes them functional for use. If they are functional, they remain functional but may be prettied up anyway!
-Input: A C Struct. It can but does not have to be padded or sorted.
-Output: A padded and sorted C Struct.
+* Input: A C Struct. It can but does not have to be padded or sorted.
+* Output: A padded and sorted C Struct.
 
 # StructDocGenerator Module
 Because the generation and syncing of structs is automated, this documentation format is for in-depth docs of each member of the struct.
 It can generate structures from documents, documents from structures, and it can merge structures into the document.
-I/O: Can generate docs from a struct and vice versa.
+* I/O: Can generate docs from a struct and vice versa.
